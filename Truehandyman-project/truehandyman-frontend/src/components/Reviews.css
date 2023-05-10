@@ -1,0 +1,24 @@
+.reviews-header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    padding-top: 200px;
+  }
+  
+  .reviews-content {
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .reviews-content {
+      max-width: 800px;
+      margin: 20px auto;
+    }
+  }
+  

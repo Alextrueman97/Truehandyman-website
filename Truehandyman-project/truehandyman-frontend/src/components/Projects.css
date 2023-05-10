@@ -1,0 +1,126 @@
+.projects-content {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .projects-content {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+
+.carousel {
+  position: relative;
+  z-index: 1; /* add z-index property */
+}
+
+.carousel-container {
+  margin-top: -50px;
+  max-width: 800px; /* set a maximum width for the container */
+  margin-left: auto; /* center the container horizontally */
+  margin-right: auto;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-container {
+    margin-top: -20px;
+  }
+}
+
+.carousel-inner {
+  max-height: 600px;
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-inner {
+    max-height: 600px; /* decrease height for medium-sized screens */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-inner {
+    max-height: 600px;
+  }
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  font-size: 14px; /* adjust font size */
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-caption {
+    bottom: 0;
+    font-size: 16px;
+    width: 100%;
+  }
+}
+.carousel-caption h5 {
+  font-size: 24px;
+  color: white;
+}
+
+.carousel-indicators {
+  bottom: -40px;
+}
+
+.carousel-indicators button {
+  background-color: #ccc;
+  border: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+}
+
+.carousel-indicators .active {
+  background-color: #333;
+}
+
+.carousel-container {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.projects-header {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: 200px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .carousel-container {
+    max-width: 1000px; /* increase max-width for larger screens */
+  }
+
+  .carousel-inner {
+    max-height: 800px; /* increase max-height for larger screens */
+  }
+
+  .carousel-caption {
+    font-size: 18px; /* adjust font size for larger screens */
+  }
+
+  .projects-header {
+    font-size: 3.5rem; /* adjust font size for larger screens */
+  }
+}
+
+
+

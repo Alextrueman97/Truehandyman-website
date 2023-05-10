@@ -1,0 +1,67 @@
+.homepage-content {
+    padding: 20px;
+    margin-top: 150px; /* to account for the navigation bar */
+    text-align: center;
+  }
+  
+  .homepage-content h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-content p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: centre;
+  }
+  
+  .homepage-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto; /* center the list */
+  }
+  
+  .homepage-content li {
+    font-size: 18px;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .facebook {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .facebook a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .facebook img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .facebook p {
+    font-size: 18px;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 100px;
+  }
+  
