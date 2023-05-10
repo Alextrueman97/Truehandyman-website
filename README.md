@@ -19,4 +19,4 @@ To run this project
 
 Video Demo
 -------
-[![Video Demo of Project](/Truehandymanthumbnail.png)](https://www.youtube.com/watch?v=in2mcY5kELE&ab_channel=AlexTrueman)
+[![Video Demo of Project](/Truehandymanthumbnail.PNG)](https://www.youtube.com/watch?v=in2mcY5kELE&ab_channel=AlexTrueman)
